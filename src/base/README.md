@@ -12,39 +12,14 @@ Import all the classes into your project and then copy the contents of Global.ba
 
 ### Prerequisites
 
-The only prerequisite of these modules is the 
-What things you need to install the software and how to install them
-?? can we populate this from the manifest.xml file easily??
-XSLT transform? Or just VBS editing?? Either way, automate the first pass and manually do the rest
-<xsl:output-method="text" omit-xml-declaration="yes" indent="no" />
-references/reference[name] ([path])
-
-call-template match="references"
-    For-each reference
-        xsl:text value-of=[name] etc
-
-```
-Give examples
-```
-
+*(none)*
+<!--
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
+Import the classes into your project, and either import the `Global` module or copy the contents into your own global module. <br />
+That's it!
+-->
+<!-- 
 ## Running the tests
 
 Explain how to run the automated tests for this system
@@ -73,13 +48,14 @@ Add additional notes about how to deploy this on a live system
 >> fixtures/fixture[path].[source]
 
 (link to purchase my Access migration tool for $9(?))
-
+-->
+<!--
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
+-->
 ## Components - Index
 
 ### Modules
@@ -94,7 +70,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Components
 
-### Globals: ./Globals.bas
+### Globals
+Source: ./Globals.bas
 
 Copy the code from this module into your Global module (or use it as is) to instantiate an Assert object into your project.
 
@@ -111,7 +88,8 @@ You can write your won custom assertion handlers by copying the [cSilentAssertio
 
 ## Classes
 
-### cAssert: ./cAssert.cls
+### cAssert
+Source: ./cAssert.cls
 
 #### Properties
 
@@ -133,7 +111,8 @@ You can write your won custom assertion handlers by copying the [cSilentAssertio
 
 #### Limitations/Caveats
 
-### cAssertHandler: ./cAssertHandler.cls
+### cAssertHandler
+Source: ./cAssertHandler.cls
 
 #### Properties
 
@@ -153,7 +132,8 @@ handleAssertion(ByVal message As String) - returns an assertion response type
 #### Limitations/Caveats
 
 
-### cSilentAssertionHandler: ./cSilentAssertionHandler.cls
+### cSilentAssertionHandler
+Source: ./cSilentAssertionHandler.cls
 
 #### Properties
 
@@ -170,7 +150,8 @@ handleAssertion(ByVal message As String) - returns an assertion response type
 #### Limitations/Caveats
 
 
-### cBusyPointer: ./cBusyPointer.cls
+### cBusyPointer
+Source: ./cBusyPointer.cls
 
 #### Properties
 
